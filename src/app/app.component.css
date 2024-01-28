@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(181, 223, 202);
+    gap: 3%;
+    font-family: "Bebas Neue", sans-serif;
+    color: gray;
+}
+.nav__item1,.search-container,.nav__item3{
+    width: 30%;
+}
+.nav__item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+    cursor: pointer;
+}
+.nav__item1-logo{
+    width: 10%;
+    
+}
+.nav__item1-logo img{
+    width: 100%;
+    border-radius: 2rem;
+}
+.search-container input{
+    text-decoration: none;
+    border: none;
+    border-radius: 1rem;
+    width: 80%;
+    text-align: center;
+}
+.search-container button{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.nav__item3{
+  text-align: end;
+  cursor: pointer;  
+}
